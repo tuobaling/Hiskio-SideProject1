@@ -126,3 +126,21 @@
   section .right ul li {
     list-style-type: none;
   }
+
+  #curve_chart{
+    width:100%;
+    height: 80%;
+  }
+
+  @media screen and (max-width: 600px) {
+    nav ul{
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    #curve_chart{
+      width:100%;
+      height: 30%;
+    }
+  }
